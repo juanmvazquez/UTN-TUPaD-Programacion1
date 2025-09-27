@@ -1,22 +1,21 @@
 print("----------Bienvenido a la biblioteca escolar----------")
 print("------------------------------------------------------")
 
-titles = ["Batman"]
-# copies = [0] * len(titles) # se crea una lista vacia por cada titulo agregado.
-copies = [1]
+titles = []
+copies = []
 
 while True:
     print("#" * 50)
     print("#" + " " * 48 + "#")
     print("#" + "-------------------MENU-------------------".center(48) + "#")
     print("#" + " " * 48 + "#")
-    print("#" + "1- Ingresar título de libros".center(48) + "#")
+    print("#" + "1- Ingresar titulo de libros".center(48) + "#")
     print("#" + "2- Ingresar ejemplares del libro".center(48) + "#")
-    print("#" + "3- Mostrar catálogo".center(48) + "#")
+    print("#" + "3- Mostrar catalogo".center(48) + "#")
     print("#" + "4- Consultar disponibilidad".center(48) + "#")
     print("#" + "5- Listar agotados".center(48) + "#")
     print("#" + "6- Agregar título".center(48) + "#")
-    print("#" + "7- Actualizar ejemplares (préstamo/devolución)".center(48) + "#")
+    print("#" + "7- Actualizar ejemplares (prestamo/devolucion)".center(48) + "#")
     print("#" + "8- Salir".center(48) + "#")
     print("#" + " " * 48 + "#")
     print("#" * 50)
